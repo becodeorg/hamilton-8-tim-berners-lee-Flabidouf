@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Open+Sans:wght@400;600;700;800&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #817a83;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+body {
+    background-color: lightgray;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin: auto; 
+   
+}
+
+.first-block, .second-block, .third-block {
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px rgb(194, 193, 193);
+}
+
+.first-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding:15px;
+    margin: 10px;
+    
+}
+.tim-image {
+    width:20%;
+    border-radius: 50%;
+    border:3px solid lightgray;
+}
+.Tim {
+    color:#dd5555;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+.inventor {
+    margin-bottom:0;
+}
+.btn {
+    background-color: #dd5555;
+    color:white;
+    height: 45px;
+    border-radius: 5px;
+    font-size:medium ;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    border: 2px solid #dd5555;
+    text-decoration: none;
+}
+.btn-link {
+    text-decoration: none;
+    color:white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+a:visited {
+    text-decoration: none;
+}
+
+.p-first-b {
+    text-align: justify;
+}
+
+.second-block {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin:10px;
+    padding:70px;
+}
+
+.facebook, .twitter, .linkedin {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-decoration: none;
+    line-height: normal;
+    color: lightgray;
+}
+
+.fa-xl {
+    line-height: normal;
+    margin-bottom: 5px;
+    color: lightgray;
+}
+
+.third-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin:10px;
+}
+
+#odyssey {
+    display:flex;
+    align-items: center;
+    margin:30px;
+}
+.odyssey, .hulot, .alien {
+    width: 20%;
+    height: 20%;
+}
+
+#hulot {
+    display:flex;
+    align-items: center;
+    margin:30px;
+}
+
+#alien {
+    display:flex;
+    align-items: center;
+    margin:30px;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+h4, h3 {
+    margin-bottom: 0;
+}
+h3 {
+    font-weight: 700;
+}
